@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nav</title>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+
+
+		nav{
+	
+			height: 80px;
+			width: 100%;
+			background:black; 
+			line-height: 60px;
+			display: flex;
+			justify-content: space-between;
+		}
+		ul{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+
+		h4{
+			padding-left: 20px;
+			margin: 0;
+			color: white;
+			text-transform: uppercase;
+			
+
+
+		}
+
+		a{
+			text-decoration: none;
+		}
+		.menu{
+			display: flex;
+		}
+
+		.menu li a{
+			color: white;
+			padding: 15px;
+			text-transform: uppercase;
+		}
+		.menu li:first-child a:hover{
+			background: red;
+			transition: .8s all;
+		}
+
+
+		.menu li:nth-child(2) a:hover{
+			background: green;
+			transition: .8s all;
+		}
+		.menu li:nth-child(3) a:hover{
+			background: yellow;
+			transition: .8s all;
+			color: black;
+		}
+		.menu li:nth-child(4) a:hover{
+			background: orange;
+			transition: .8s all;
+			color: black;
+		}
+		.menu li:last-child a:hover{
+			background: blue;
+			transition: .8s all;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>
+				<a href="#"><h4>Logo</h4>
+
+				</a>
+			</li>
+		</ul>
+		<ul class="menu">
+		<li> <a href="#">Home</a> </li>
+		<li> <a href="#">HTML</a> </li>	
+		<li> <a href="#">CSS</a> </li>	
+		<li> <a href="#">JS</a> </li>		
+		<li> <a href="#">PHP</a> </li>	
+		</ul>
+	</nav>
+</body>
+</html>
